@@ -1,51 +1,364 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Faria Ferdous | Physics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Faria Ferdous | Physics</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+        color: #263238;
+        background: #ffffff;
+    }
+
+    header {
+        background: #102a43;
+        color: white;
+        padding: 65px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 42px;
+        margin-bottom: 8px;
+    }
+
+    header h2 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+
+    header p {
+        color: #d9e2ec;
+        margin-top: 10px;
+    }
+
+    nav {
+        background: #ffffff;
+        padding: 16px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+    }
+
+    nav a {
+        color: #102a43;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #0077b6;
+    }
+
+    .container {
+        max-width: 950px;
+        margin: auto;
+        padding: 50px 25px;
+    }
+
+    section {
+        margin-bottom: 60px;
+    }
+
+    h2.section-title {
+        color: #102a43;
+        font-size: 28px;
+        margin-bottom: 20px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #e5e7eb;
+    }
+
+    h3 {
+        color: #334e68;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    .intro {
+        font-size: 18px;
+    }
+
+    .research-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .research-item {
+        background: #f5f7fa;
+        padding: 20px;
+        border-radius: 6px;
+        border-left: 4px solid #334e68;
+    }
+
+    .button {
+        display: inline-block;
+        background: #102a43;
+        color: white;
+        text-decoration: none;
+        padding: 11px 20px;
+        margin: 8px 8px 8px 0;
+        border-radius: 5px;
+    }
+
+    .button:hover {
+        background: #334e68;
+    }
+
+    .publication {
+        margin-bottom: 20px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    footer {
+        background: #102a43;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    footer p {
+        margin: 5px;
+    }
+
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 32px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px 8px;
+        }
+    }
+</style>
 </head>
+
 
 <body>
 
-<h1>Faria Ferdous</h1>
+<header>
+    <h1>Faria Ferdous</h1>
 
-<p>
-Assistant Professor<br>
-Department of Physics<br>
-University of Dhaka
-</p>
+    <h2>Assistant Professor of Physics</h2>
 
-<h2>Research Interests</h2>
+    <h2>University of Dhaka</h2>
 
-<p>
-Experimental Condensed Matter Physics,
-Magnetic Materials,
-Functional Oxides,
-Thin Films,
-Spintronics,
-and Energy Materials.
-</p>
+    <p>
+        Experimental Condensed Matter Physics |
+        Functional Materials |
+        Magnetic Materials
+    </p>
+</header>
 
-<h2>Curriculum Vitae</h2>
 
-<p>
-<a href="Faria_Ferdous_CV.pdf">
-View / Download My CV
-</a>
-</p>
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<h2>Research Profiles</h2>
 
-<p>
-<a href="YOUR-GOOGLE-SCHOLAR-LINK">
-Google Scholar
-</a>
-</p>
+<div class="container">
 
-<p>
-<a href="YOUR-ORCID-LINK">
-ORCID
-</a>
-</p>
+<section id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p class="intro">
+        I am an Assistant Professor in the Department of Physics at the
+        University of Dhaka, Bangladesh. My research interests lie in
+        experimental condensed matter physics and materials science,
+        particularly in understanding how composition, microstructure,
+        defects, interfaces, and processing conditions influence the
+        physical properties of functional materials.
+    </p>
+
+    <p>
+        My research experience includes magnetic and multiferroic
+        materials, ferrite nanomaterials, functional oxides,
+        semiconductor nanocomposites, and thin-film materials.
+        I am particularly interested in developing structure-property
+        relationships that can guide the design of materials for
+        magnetic, electronic, spintronic, and energy-related applications.
+    </p>
+
+</section>
+
+
+<section id="research">
+
+    <h2 class="section-title">Research Interests</h2>
+
+    <div class="research-grid">
+
+        <div class="research-item">
+            <strong>Experimental Condensed Matter Physics</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Magnetic Materials & Ferrites</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Thin Films & Heterostructures</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Spintronics & Magnonics</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Functional Oxides</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Semiconductor Nanocomposites</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Energy & Photocatalytic Materials</strong>
+        </div>
+
+        <div class="research-item">
+            <strong>Structure-Property Relationships</strong>
+        </div>
+
+    </div>
+
+
+    <h3>Current Research</h3>
+
+    <p>
+        I currently serve as Principal Investigator of a research project
+        supported by the University Grants Commission of Bangladesh,
+        investigating graphene-oxide-based semiconducting nanocomposites
+        for enhanced photocatalytic degradation and wastewater-management
+        applications.
+    </p>
+
+</section>
+
+
+<section id="publications">
+
+    <h2 class="section-title">Publications</h2>
+
+    <p>
+        My research has resulted in five peer-reviewed publications
+        covering magnetic materials, ferrite nanostructures,
+        multiferroic systems, and semiconductor nanocomposites.
+    </p>
+
+    <p>
+        A complete and updated publication list is available through my
+        Google Scholar profile.
+    </p>
+
+    <!-- We will replace this with your actual Google Scholar URL -->
+    <a class="button" href="#" target="_blank">
+        Google Scholar
+    </a>
+
+</section>
+
+
+<section id="teaching">
+
+    <h2 class="section-title">Teaching</h2>
+
+    <p>
+        As a faculty member in the Department of Physics at the
+        University of Dhaka, I contribute to undergraduate and
+        postgraduate physics teaching as well as laboratory instruction
+        and student research supervision.
+    </p>
+
+    <p>
+        I currently supervise Master's-level research projects in
+        experimental condensed matter physics and materials science.
+    </p>
+
+</section>
+
+
+<section id="cv">
+
+    <h2 class="section-title">Curriculum Vitae</h2>
+
+    <p>
+        My academic CV contains detailed information about my education,
+        research experience, publications, teaching activities,
+        research projects, and academic responsibilities.
+    </p>
+
+    <a class="button"
+       href="CV_Faria_Ferdous.pdf"
+       target="_blank">
+        View / Download CV
+    </a>
+
+</section>
+
+
+<section id="contact">
+
+    <h2 class="section-title">Contact</h2>
+
+    <p>
+        <strong>Faria Ferdous</strong><br>
+        Assistant Professor<br>
+        Department of Physics<br>
+        University of Dhaka<br>
+        Dhaka, Bangladesh
+    </p>
+
+    <p>
+        Academic and research inquiries are welcome.
+    </p>
+
+    <!-- Add your institutional email here later -->
+
+</section>
+
+</div>
+
+
+<footer>
+
+    <p><strong>Faria Ferdous</strong></p>
+
+    <p>
+        Department of Physics · University of Dhaka
+    </p>
+
+    <p>
+        © 2026 Faria Ferdous
+    </p>
+
+</footer>
 
 </body>
 </html>
