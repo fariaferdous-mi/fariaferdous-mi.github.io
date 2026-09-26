@@ -6,13 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta name="description"
-content="Faria Ferdous - Assistant Professor of Physics at the University of Dhaka. Research in experimental condensed matter physics, magnetic materials, functional oxides, thin films, nanomaterials and energy materials.">
+content="Faria Ferdous - Assistant Professor of Physics at the University of Dhaka. Experimental condensed matter physics, magnetic materials, functional oxides, thin films, nanomaterials and energy materials.">
 
 <title>Faria Ferdous | Physics</title>
 
 <style>
 
-/* ==================== GENERAL ==================== */
+/* =====================================================
+   GENERAL
+===================================================== */
 
 html {
     scroll-behavior: smooth;
@@ -21,7 +23,7 @@ html {
 body {
     margin: 0;
     background: #ffffff;
-    color: #333333;
+    color: #333;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15.5px;
     line-height: 1.65;
@@ -29,12 +31,12 @@ body {
 
 .container {
     width: 92%;
-    max-width: 1000px;
+    max-width: 980px;
     margin: auto;
 }
 
 a {
-    color: #246a9b;
+    color: #286f9e;
     text-decoration: none;
 }
 
@@ -43,16 +45,18 @@ a:hover {
 }
 
 
-/* ==================== PROFILE HEADER ==================== */
+/* =====================================================
+   PROFILE HEADER
+===================================================== */
 
 .profile-header {
-    padding: 48px 0 35px;
+    padding: 48px 0 38px;
 }
 
 .profile-grid {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 38px;
 }
 
 .profile-photo {
@@ -61,42 +65,48 @@ a:hover {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
 }
 
 .profile-info h1 {
-    margin: 0 0 5px;
-    font-size: 37px;
+    margin: 0 0 4px;
+    font-size: 38px;
     font-weight: 500;
-    color: #222222;
+    color: #222;
 }
 
 .position {
     font-size: 18px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
 
 .institution {
-    color: #555555;
-    margin-bottom: 12px;
+    color: #555;
+    margin-bottom: 8px;
 }
 
-.profile-links {
-    margin-top: 12px;
+.research-focus {
+    color: #666;
+    font-size: 14px;
+    margin: 9px 0 13px;
 }
 
 .profile-links a {
+    display: inline-block;
     margin-right: 18px;
-    white-space: nowrap;
+    margin-bottom: 5px;
+    font-weight: 500;
 }
 
 
-/* ==================== NAVIGATION ==================== */
+/* =====================================================
+   NAVIGATION
+===================================================== */
 
 nav {
-    border-top: 1px solid #e2e2e2;
-    border-bottom: 1px solid #e2e2e2;
-    background: #ffffff;
+    background: #fff;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -104,29 +114,29 @@ nav {
 
 .nav-inner {
     display: flex;
-    flex-wrap: wrap;
-    gap: 21px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    gap: 30px;
+    padding: 12px 0;
 }
 
 .nav-inner a {
-    color: #444444;
+    color: #444;
     font-size: 14px;
     font-weight: 600;
 }
 
 .nav-inner a:hover {
-    color: #246a9b;
+    color: #286f9e;
     text-decoration: none;
 }
 
 
-/* ==================== CONTENT ==================== */
+/* =====================================================
+   MAIN
+===================================================== */
 
 main {
-    padding-top: 36px;
-    padding-bottom: 60px;
+    padding-top: 38px;
+    padding-bottom: 65px;
 }
 
 section {
@@ -134,61 +144,107 @@ section {
 }
 
 section h2 {
-    color: #333333;
+    margin: 0 0 20px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
     font-size: 25px;
     font-weight: 500;
-    margin-bottom: 20px;
-    padding-bottom: 7px;
-    border-bottom: 1px solid #dddddd;
 }
 
 section h3 {
-    color: #333333;
+    margin: 20px 0 5px;
+    color: #333;
     font-size: 17px;
-    margin-top: 20px;
-    margin-bottom: 4px;
 }
 
 p {
-    margin-top: 8px;
-    margin-bottom: 13px;
+    margin: 8px 0 14px;
 }
 
 
-/* ==================== RECENT ==================== */
+/* =====================================================
+   ABOUT
+===================================================== */
 
-.news-list {
-    padding-left: 22px;
-}
-
-.news-list li {
-    margin-bottom: 10px;
-}
-
-
-/* ==================== RESEARCH ==================== */
-
-.research-list {
-    columns: 2;
-    column-gap: 55px;
-    padding-left: 20px;
-}
-
-.research-list li {
-    margin-bottom: 8px;
+.about-text {
+    max-width: 900px;
 }
 
 
-/* ==================== TIMELINE ==================== */
+/* =====================================================
+   RESEARCH
+===================================================== */
+
+.research-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 45px;
+    margin-top: 22px;
+}
+
+.research-item {
+    padding-bottom: 9px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.research-item strong {
+    display: block;
+    color: #333;
+}
+
+
+/* =====================================================
+   PUBLICATIONS
+===================================================== */
+
+.publication {
+    margin-bottom: 22px;
+    padding-left: 26px;
+    text-indent: -26px;
+}
+
+.me {
+    font-weight: 600;
+}
+
+.pub-links {
+    white-space: nowrap;
+}
+
+
+/* =====================================================
+   PROJECTS
+===================================================== */
+
+.project {
+    margin-bottom: 27px;
+}
+
+.project-title {
+    font-weight: 600;
+    color: #333;
+}
+
+.project-meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+/* =====================================================
+   TEACHING / EDUCATION / EXPERIENCE
+===================================================== */
 
 .entry {
-    margin-bottom: 23px;
+    margin-bottom: 22px;
 }
 
 .entry-header {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 25px;
 }
 
 .entry-title {
@@ -196,85 +252,79 @@ p {
 }
 
 .entry-date {
-    color: #666666;
+    color: #666;
     white-space: nowrap;
 }
 
 .entry-subtitle {
-    color: #555555;
+    color: #555;
 }
 
 
-/* ==================== PUBLICATIONS ==================== */
+/* =====================================================
+   SKILLS
+===================================================== */
 
-.publication {
-    margin-bottom: 22px;
-    padding-left: 27px;
-    text-indent: -27px;
+.skill-list {
+    columns: 2;
+    column-gap: 50px;
+    padding-left: 20px;
 }
 
-.me {
-    font-weight: 600;
-}
-
-
-/* ==================== PROJECTS ==================== */
-
-.project {
-    margin-bottom: 25px;
+.skill-list li {
+    margin-bottom: 7px;
 }
 
 
-/* ==================== SKILLS ==================== */
+/* =====================================================
+   CV
+===================================================== */
 
-.skill-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px 40px;
+.cv-box {
+    background: #fafafa;
+    border: 1px solid #e2e2e2;
+    padding: 22px 25px;
 }
-
-.skill-grid div {
-    padding-bottom: 7px;
-    border-bottom: 1px dotted #dddddd;
-}
-
-
-/* ==================== CV BUTTON ==================== */
 
 .cv-button {
     display: inline-block;
-    border: 1px solid #246a9b;
-    color: #246a9b;
-    padding: 8px 16px;
-    border-radius: 3px;
     margin-top: 8px;
+    padding: 8px 17px;
+    border: 1px solid #286f9e;
+    border-radius: 3px;
+    color: #286f9e;
 }
 
 .cv-button:hover {
-    background: #246a9b;
-    color: #ffffff;
+    background: #286f9e;
+    color: white;
     text-decoration: none;
 }
 
 
-/* ==================== FOOTER ==================== */
+/* =====================================================
+   FOOTER
+===================================================== */
 
 footer {
-    border-top: 1px solid #dddddd;
-    padding: 27px 0 35px;
+    border-top: 1px solid #ddd;
+    padding: 28px 0 38px;
+    color: #777;
     text-align: center;
-    color: #777777;
     font-size: 13px;
 }
 
 
-/* ==================== MOBILE ==================== */
+/* =====================================================
+   MOBILE
+===================================================== */
 
 @media (max-width: 700px) {
 
     .profile-grid {
         flex-direction: column;
         align-items: flex-start;
+        gap: 22px;
     }
 
     .profile-photo {
@@ -287,15 +337,17 @@ footer {
     }
 
     .nav-inner {
-        gap: 11px 17px;
+        overflow-x: auto;
+        gap: 20px;
+        white-space: nowrap;
     }
 
-    .research-list {
-        columns: 1;
-    }
-
-    .skill-grid {
+    .research-grid {
         grid-template-columns: 1fr;
+    }
+
+    .skill-list {
+        columns: 1;
     }
 
     .entry-header {
@@ -308,14 +360,15 @@ footer {
 }
 
 </style>
-
 </head>
 
 
 <body>
 
 
-<!-- ==================== PROFILE ==================== -->
+<!-- =====================================================
+     PROFILE
+===================================================== -->
 
 <header class="profile-header">
 
@@ -338,6 +391,11 @@ Assistant Professor
 
 <div class="institution">
 Department of Physics, University of Dhaka
+</div>
+
+<div class="research-focus">
+Experimental Condensed Matter Physics · Magnetic Materials ·
+Functional Oxides · Thin Films
 </div>
 
 <div class="profile-links">
@@ -366,32 +424,26 @@ CV ↗
 </div>
 
 </div>
-
 </div>
-
 </div>
 
 </header>
 
 
-<!-- ==================== NAVIGATION ==================== -->
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
 
 <nav>
 
 <div class="container nav-inner">
 
 <a href="#about">About</a>
-<a href="#recent">Recent</a>
 <a href="#research">Research</a>
-<a href="#education">Education</a>
-<a href="#experience">Experience</a>
 <a href="#publications">Publications</a>
 <a href="#projects">Projects</a>
-<a href="#skills">Skills</a>
 <a href="#teaching">Teaching</a>
-<a href="#awards">Awards</a>
-<a href="#service">Service</a>
-<a href="#cv">Full CV</a>
+<a href="#cv">CV</a>
 
 </div>
 
@@ -401,217 +453,85 @@ CV ↗
 <main class="container">
 
 
-<!-- ==================== ABOUT ==================== -->
+<!-- =====================================================
+     ABOUT
+===================================================== -->
 
 <section id="about">
 
 <h2>About Me</h2>
 
+<div class="about-text">
+
 <p>
 I am an Assistant Professor in the Department of Physics at the
-University of Dhaka, Bangladesh. My research interests lie in
-experimental condensed matter physics and materials science, with
-particular emphasis on magnetic and multiferroic materials, ferrite
-nanomaterials, functional oxide thin films, photocatalytic
-nanocomposites, and solar-cell transport layers.
+University of Dhaka, Bangladesh. My research lies at the intersection
+of experimental condensed matter physics and materials science, with
+particular interests in magnetic and multiferroic materials, functional
+oxides, ferrite nanomaterials, thin films, and energy-related materials.
+My work focuses on understanding how composition, crystal structure,
+microstructure, defects, interfaces, and processing conditions influence
+the magnetic, electrical, dielectric, optical, and functional properties
+of materials.
 </p>
 
 <p>
-My research encompasses materials synthesis, structural and optical
-characterization, magnetic and electrical property analysis, and the
-investigation of structure–property relationships. I am particularly
-interested in understanding how composition, microstructure, interfaces,
-and processing conditions govern the functional properties of materials
-for electronic, energy, and environmental applications.
+My research experience spans multiferroic composites, ferrite
+nanoparticles, photocatalytic nanocomposites, and metal-oxide thin films.
+I am particularly interested in developing functional materials and
+heterostructures for magnetic, electronic, energy-conversion, and
+environmental applications.
 </p>
 
-</section>
-
-
-<!-- ==================== RECENT ==================== -->
-
-<section id="recent">
-
-<h2>Recent</h2>
-
-<ul class="news-list">
-
-<li>
-<strong>2025–2026:</strong>
-Principal Investigator of a University Grants Commission (UGC),
-Bangladesh research project investigating graphene-oxide-based
-semiconducting nanocomposites for ultrafast photocatalytic degradation
-in wastewater management.
-</li>
-
-<li>
-<strong>2025:</strong>
-Published research on the photocatalytic performance and recyclability
-of ZnO–rGO nanocomposites for wastewater treatment in
-<em>AIP Advances</em>.
-</li>
-
-<li>
-Current research includes metal-oxide thin films for perovskite solar
-cells, ferrite/CeO₂ heterojunction nanocomposites, and NiO-based
-hole transport layers.
-</li>
-
-</ul>
+</div>
 
 </section>
 
 
-<!-- ==================== RESEARCH ==================== -->
+<!-- =====================================================
+     RESEARCH
+===================================================== -->
 
 <section id="research">
 
-<h2>Research Interests</h2>
+<h2>Research</h2>
 
-<ul class="research-list">
+<div class="research-grid">
 
-<li>Experimental condensed matter physics</li>
-<li>Magnetic materials</li>
-<li>Multiferroic materials</li>
-<li>Functional oxides</li>
-<li>Ferrite nanoparticles</li>
-<li>Heterojunctions</li>
-<li>Nanocomposites</li>
-<li>Metal-oxide thin films</li>
-<li>Perovskite solar cells</li>
-<li>Charge-transport layers</li>
-<li>Photocatalytic nanomaterials</li>
-<li>Structure–property relationships</li>
-
-</ul>
-
-</section>
-
-
-<!-- ==================== EDUCATION ==================== -->
-
-<section id="education">
-
-<h2>Education</h2>
-
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-Master of Science in Physics
+<div class="research-item">
+<strong>Magnetic & Multiferroic Materials</strong>
+Ferrites, magnetic oxides, multiferroic composites, and
+structure–property relationships.
 </div>
 
-<div class="entry-date">
-2016
+<div class="research-item">
+<strong>Functional Oxides</strong>
+Composition, defects, microstructure, interfaces, dielectric
+response, and functional properties.
 </div>
 
+<div class="research-item">
+<strong>Thin Films & Interfaces</strong>
+Metal-oxide thin films, chemical bath deposition, spin coating,
+and functional heterostructures.
 </div>
 
-<div class="entry-subtitle">
-Department of Physics, University of Dhaka
+<div class="research-item">
+<strong>Energy Materials</strong>
+Transport layers and functional oxide materials for
+perovskite solar-cell applications.
 </div>
 
-<p>
-CGPA: <strong>3.92 / 4.00</strong> · 2nd position
-</p>
-
+<div class="research-item">
+<strong>Nanomaterials</strong>
+Ferrite nanoparticles, oxide nanocomposites, and
+graphene-oxide-based materials.
 </div>
 
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-Bachelor of Science in Physics
-</div>
-
-<div class="entry-date">
-2015
-</div>
-
-</div>
-
-<div class="entry-subtitle">
-Department of Physics, University of Dhaka
-</div>
-
-<p>
-CGPA: <strong>3.65 / 4.00</strong> · 6th position
-</p>
-
-</div>
-
-</section>
-
-
-<!-- ==================== EXPERIENCE ==================== -->
-
-<section id="experience">
-
-<h2>Academic Experience</h2>
-
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-Assistant Professor
-</div>
-
-<div class="entry-date">
-2023 – Present
-</div>
-
-</div>
-
-<div class="entry-subtitle">
-Department of Physics, University of Dhaka
-</div>
-
-</div>
-
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-Lecturer
-</div>
-
-<div class="entry-date">
-2019 – 2023
-</div>
-
-</div>
-
-<div class="entry-subtitle">
-Department of Physics, University of Dhaka
-</div>
-
-</div>
-
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-Lecturer in Physics
-</div>
-
-<div class="entry-date">
-2018 – 2019
-</div>
-
-</div>
-
-<div class="entry-subtitle">
-Primeasia University
+<div class="research-item">
+<strong>Photocatalytic Materials</strong>
+Semiconductor nanocomposites for photocatalysis and
+environmental remediation.
 </div>
 
 </div>
@@ -619,11 +539,13 @@ Primeasia University
 </section>
 
 
-<!-- ==================== PUBLICATIONS ==================== -->
+<!-- =====================================================
+     PUBLICATIONS
+===================================================== -->
 
 <section id="publications">
 
-<h2>Peer-Reviewed Publications</h2>
+<h2>Selected Publications</h2>
 
 
 <div class="publication">
@@ -641,10 +563,10 @@ multiferroic composites.”
 <em>Journal of Materials Science: Materials in Electronics</em>,
 32, 8514–8530 (2021).
 
+<span class="pub-links">
 <a href="https://doi.org/10.1007/s10854-021-05480-x"
-target="_blank">
-DOI ↗
-</a>
+target="_blank">DOI ↗</a>
+</span>
 
 </div>
 
@@ -661,12 +583,10 @@ the structural and electromagnetic properties of
 Cu<sub>0.5</sub>Mg<sub>0.5</sub>Cr<sub>x</sub>Fe<sub>2−x</sub>O<sub>4</sub>
 nanoferrites.”
 
-<em>AIP Advances</em>, 12(9), 095015 (2022).
+<em>AIP Advances</em>, 12, 095015 (2022).
 
 <a href="https://doi.org/10.1063/5.0110308"
-target="_blank">
-DOI ↗
-</a>
+target="_blank">DOI ↗</a>
 
 </div>
 
@@ -687,9 +607,7 @@ multiferroic composite.”
 30(1), 43–56 (2023).
 
 <a href="https://doi.org/10.3329/bjphy.v30i1.79513"
-target="_blank">
-DOI ↗
-</a>
+target="_blank">DOI ↗</a>
 
 </div>
 
@@ -709,9 +627,7 @@ application.”
 <em>Heliyon</em>, 10, e40771 (2024).
 
 <a href="https://doi.org/10.1016/j.heliyon.2024.e40771"
-target="_blank">
-DOI ↗
-</a>
+target="_blank">DOI ↗</a>
 
 </div>
 
@@ -729,57 +645,45 @@ of cleansing wastewater using ZnO–rGO nanocomposite.”
 <em>AIP Advances</em>, 15, 075343 (2025).
 
 <a href="https://doi.org/10.1063/5.0275565"
-target="_blank">
-DOI ↗
-</a>
+target="_blank">DOI ↗</a>
 
 </div>
 
 
-<h3>Manuscript in Preparation</h3>
-
 <p>
-Enhancing Ion Accessibility in MoO<sub>3</sub>/rGO Networks through
-Interfacial Defect Modulation for High-Performance Symmetric Aqueous
-Supercapacitors.
-</p>
-
-<p>
+<strong>Five peer-reviewed publications.</strong>
 <a href="https://scholar.google.com/citations?user=TuzNBZ4AAAAJ&hl=en"
 target="_blank">
-View complete profile on Google Scholar ↗
+View complete publication profile on Google Scholar ↗
 </a>
 </p>
 
 </section>
 
 
-<!-- ==================== PROJECTS ==================== -->
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
 
 <section id="projects">
 
-<h2>Research Experience & Ongoing Projects</h2>
+<h2>Current Research Projects</h2>
 
 
 <div class="project">
 
-<h3>
-Principal Investigator · University Grants Commission (UGC), Bangladesh
-</h3>
+<div class="project-title">
+Graphene-Oxide-Based Semiconductor Nanocomposites
+</div>
 
-<div class="entry-date">
-2025–2026
+<div class="project-meta">
+Principal Investigator · University Grants Commission (UGC),
+Bangladesh · 2025–2026
 </div>
 
 <p>
-<strong>
-Study of Graphene Oxide-Based Semiconducting Nanocomposites for
-Ultra-Fast Photocatalytic Degradation in Wastewater Management
-</strong>
-</p>
-
-<p>
-Project ID: 21463331
+Investigation of graphene-oxide-based semiconducting nanocomposites
+for ultrafast photocatalytic degradation in wastewater management.
 </p>
 
 </div>
@@ -787,13 +691,13 @@ Project ID: 21463331
 
 <div class="project">
 
-<h3>
+<div class="project-title">
 Metal-Oxide Thin Films for Perovskite Solar Cells
-</h3>
+</div>
 
 <p>
-Fabrication of metal oxide thin films by chemical bath deposition for
-efficient electron transport layers in perovskite solar cells.
+Fabrication of metal-oxide thin films using chemical bath deposition
+for efficient electron transport layers in perovskite solar cells.
 </p>
 
 </div>
@@ -801,14 +705,14 @@ efficient electron transport layers in perovskite solar cells.
 
 <div class="project">
 
-<h3>
+<div class="project-title">
 Ferrite/CeO₂ Heterojunction Nanocomposites
-</h3>
+</div>
 
 <p>
-Structural, magnetic, dielectric, optical, and photocatalytic study
-of Cu-substituted manganese ferrite/CeO₂ heterojunction
-nanocomposites.
+Investigation of the structural, magnetic, dielectric, optical,
+and photocatalytic properties of Cu-substituted manganese
+ferrite/CeO₂ heterojunction nanocomposites.
 </p>
 
 </div>
@@ -816,12 +720,12 @@ nanocomposites.
 
 <div class="project">
 
-<h3>
-NiO Hole Transport Layers
-</h3>
+<div class="project-title">
+NiO-Based Hole Transport Layers
+</div>
 
 <p>
-Development of calcium nitrate-doped NiO hole transport layers by
+Development of calcium-doped NiO hole transport layers using
 spin coating for solar-cell applications.
 </p>
 
@@ -830,52 +734,9 @@ spin coating for solar-cell applications.
 </section>
 
 
-<!-- ==================== SKILLS ==================== -->
-
-<section id="skills">
-
-<h2>Research Skills & Techniques</h2>
-
-<div class="skill-grid">
-
-<div>Thin-film deposition: chemical bath deposition (CBD)</div>
-
-<div>Spin coating</div>
-
-<div>Ferrite nanoparticle synthesis</div>
-
-<div>Oxide and nanocomposite synthesis</div>
-
-<div>X-ray diffraction (XRD)</div>
-
-<div>Vibrating Sample Magnetometry (VSM)</div>
-
-<div>UV-Vis spectroscopy</div>
-
-<div>FTIR spectroscopy</div>
-
-<div>Dielectric and impedance measurements</div>
-
-<div>Photocatalytic performance evaluation</div>
-
-<div>Perovskite solar-cell fabrication</div>
-
-<div>Transport-layer development</div>
-
-</div>
-
-
-<h3>Computational & Software Skills</h3>
-
-<p>
-C/C++, Maple, MATLAB, OriginLab, FullProf, ImageJ/Fiji,
-Microsoft Office, and LaTeX.
-</p>
-
-</section>
-
-
-<!-- ==================== TEACHING ==================== -->
+<!-- =====================================================
+     TEACHING
+===================================================== -->
 
 <section id="teaching">
 
@@ -884,15 +745,9 @@ Microsoft Office, and LaTeX.
 <p>
 My undergraduate teaching experience includes
 <strong>Optics, Nuclear Physics, Electricity and Magnetism,
-and Mechanics</strong>.
+and Mechanics</strong>. I also supervise laboratory sessions,
+experimental projects, and student research activities.
 </p>
-
-<p>
-I also supervise laboratory sessions, student projects, and
-experimental work, while contributing to departmental academic
-activities and undergraduate mentoring.
-</p>
-
 
 <div class="entry">
 
@@ -914,139 +769,145 @@ Department of Physics, University of Dhaka
 
 </div>
 
-</section>
 
+<h3>Research Techniques</h3>
 
-<!-- ==================== AWARDS ==================== -->
+<ul class="skill-list">
 
-<section id="awards">
+<li>Chemical bath deposition</li>
+<li>Spin coating</li>
+<li>Ferrite nanoparticle synthesis</li>
+<li>Oxide/nanocomposite synthesis</li>
+<li>X-ray diffraction (XRD)</li>
+<li>Vibrating Sample Magnetometry (VSM)</li>
+<li>UV-Vis spectroscopy</li>
+<li>FTIR spectroscopy</li>
+<li>Dielectric measurements</li>
+<li>Impedance measurements</li>
 
-<h2>Awards & Fellowships</h2>
-
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-National Science and Technology Fellowship
-</div>
-
-<div class="entry-date">
-2017–2018
-</div>
-
-</div>
-
-<div class="entry-subtitle">
-Ministry of Science and Technology, Bangladesh
-</div>
-
-</div>
-
-
-<div class="entry">
-
-<div class="entry-header">
-
-<div class="entry-title">
-Merit Scholarship
-</div>
-
-<div class="entry-date">
-2015
-</div>
-
-</div>
-
-<div class="entry-subtitle">
-Directorate of Secondary and Higher Education, Bangladesh
-</div>
-
-</div>
+</ul>
 
 </section>
 
 
-<!-- ==================== SERVICE ==================== -->
-
-<section id="service">
-
-<h2>Academic Service & Outreach</h2>
-
-
-<div class="entry">
-
-<div class="entry-title">
-Member, Organizing Committee
-</div>
-
-<div class="entry-subtitle">
-International Conference on Physics 2026
-</div>
-
-</div>
-
-
-<div class="entry">
-
-<div class="entry-title">
-Member, Organizing Committee
-</div>
-
-<div class="entry-subtitle">
-Sultan Ahmed Memorial Conference: Recent Advances in Physics, 2024
-</div>
-
-</div>
-
-
-<div class="entry">
-
-<div class="entry-title">
-Examiner
-</div>
-
-<div class="entry-subtitle">
-7th Bangladesh Physics Olympiad
-</div>
-
-</div>
-
-
-<h3>Professional Membership</h3>
-
-<p>
-Life Member, Bangladesh Physical Society (LM R0019)
-</p>
-
-
-<h3>Conference Presentation</h3>
-
-<p>
-Oral Presentation, International Conference on Physics 2018
-</p>
-
-</section>
-
-
-<!-- ==================== CV ==================== -->
+<!-- =====================================================
+     CV
+===================================================== -->
 
 <section id="cv">
 
-<h2>Full Curriculum Vitae</h2>
+<h2>Curriculum Vitae</h2>
+
+<div class="cv-box">
 
 <p>
-For complete information about my academic background, publications,
-research activities, teaching experience, awards, and professional
-service, please see my full curriculum vitae.
+My complete academic CV contains detailed information on my
+education, academic appointments, research experience, publications,
+teaching, awards, conference activities, professional service,
+and technical skills.
 </p>
 
-<a href="CV_Faria_Ferdous.pdf"
+<a
+href="CV_Faria_Ferdous.pdf"
 target="_blank"
 class="cv-button">
 View / Download Full CV
 </a>
+
+</div>
+
+
+<h3>Education</h3>
+
+<div class="entry">
+
+<div class="entry-header">
+<div class="entry-title">M.Sc. in Physics</div>
+<div class="entry-date">2016</div>
+</div>
+
+<div class="entry-subtitle">
+University of Dhaka · CGPA 3.92/4.00 · 2nd position
+</div>
+
+</div>
+
+
+<div class="entry">
+
+<div class="entry-header">
+<div class="entry-title">B.Sc. in Physics</div>
+<div class="entry-date">2015</div>
+</div>
+
+<div class="entry-subtitle">
+University of Dhaka · CGPA 3.65/4.00 · 6th position
+</div>
+
+</div>
+
+
+<h3>Academic Appointments</h3>
+
+<div class="entry">
+
+<div class="entry-header">
+<div class="entry-title">Assistant Professor</div>
+<div class="entry-date">2023–Present</div>
+</div>
+
+<div class="entry-subtitle">
+Department of Physics, University of Dhaka
+</div>
+
+</div>
+
+
+<div class="entry">
+
+<div class="entry-header">
+<div class="entry-title">Lecturer</div>
+<div class="entry-date">2019–2023</div>
+</div>
+
+<div class="entry-subtitle">
+Department of Physics, University of Dhaka
+</div>
+
+</div>
+
+
+<div class="entry">
+
+<div class="entry-header">
+<div class="entry-title">Lecturer in Physics</div>
+<div class="entry-date">2018–2019</div>
+</div>
+
+<div class="entry-subtitle">
+Primeasia University
+</div>
+
+</div>
+
+
+<h3>Awards & Academic Service</h3>
+
+<p>
+<strong>National Science and Technology Fellowship</strong>,
+Ministry of Science and Technology, Bangladesh (2017–2018)
+</p>
+
+<p>
+<strong>Merit Scholarship</strong>,
+Directorate of Secondary and Higher Education, Bangladesh (2015)
+</p>
+
+<p>
+Life Member, Bangladesh Physical Society ·
+Member of organizing committees for academic conferences ·
+Examiner, Bangladesh Physics Olympiad.
+</p>
 
 </section>
 
@@ -1054,22 +915,22 @@ View / Download Full CV
 </main>
 
 
-<!-- ==================== FOOTER ==================== -->
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
 
 <div class="container">
 
-<strong>Faria Ferdous</strong>
-
-<br>
+<strong>Faria Ferdous</strong><br>
 
 Department of Physics · University of Dhaka
 
 <br>
 
 <a href="mailto:faria.ferdous@du.ac.bd">
-faria.ferdous@du.ac.bd
+Email
 </a>
 
 &nbsp; · &nbsp;
